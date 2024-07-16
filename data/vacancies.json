@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Разработчик Python",
+    "url": "https://hh.ru/vacancy/102469377",
+    "salary_currency": "RUR",
+    "salary_from": 800000,
+    "salary_to": 1000000
+  },
+  {
+    "name": "Junior/MIddle Python FastAPI Developer",
+    "url": "https://hh.ru/vacancy/103825714",
+    "salary_currency": "UZS",
+    "salary_from": 5000000,
+    "salary_to": 10000000
+  },
+  {
+    "name": "Программист Python",
+    "url": "https://hh.ru/vacancy/103031959",
+    "salary_currency": "USD",
+    "salary_from": null,
+    "salary_to": 400
+  },
+  {
+    "name": "Дата-аналитик/Алгоритмист",
+    "url": "https://hh.ru/vacancy/102647630",
+    "salary_currency": "KZT",
+    "salary_from": 750000,
+    "salary_to": null
+  },
+  {
+    "name": "Аналитик Данных",
+    "url": "https://hh.ru/vacancy/103749041",
+    "salary_currency": "KZT",
+    "salary_from": 400000,
+    "salary_to": 800000
+  },
+  {
+    "name": "Стажер-разработчик Python",
+    "url": "https://hh.ru/vacancy/102404974",
+    "salary_currency": "RUR",
+    "salary_from": 100000,
+    "salary_to": null
+  },
+  {
+    "name": "Junior Python Разработчик",
+    "url": "https://hh.ru/vacancy/103992155",
+    "salary_currency": "RUR",
+    "salary_from": 50000,
+    "salary_to": null
+  },
+  {
+    "name": "Junior Frontend разработчик",
+    "url": "https://hh.ru/vacancy/103677273",
+    "salary_currency": "RUR",
+    "salary_from": 40000,
+    "salary_to": 60000
+  },
+  {
+    "name": "Junoir Python developer",
+    "url": "https://hh.ru/vacancy/102612686",
+    "salary_currency": "RUR",
+    "salary_from": null,
+    "salary_to": 60000
+  },
+  {
+    "name": "Специалист технической поддержки SQL, Python",
+    "url": "https://hh.ru/vacancy/103891940",
+    "salary_currency": "RUR",
+    "salary_from": null,
+    "salary_to": 100000
+  },
+  {
+    "name": "Junior Python",
+    "url": "https://hh.ru/vacancy/103562232",
+    "salary_currency": "USD",
+    "salary_from": 700,
+    "salary_to": null
+  },
+  {
+    "name": "CTO (релокация в наукоград Дубна, МО)",
+    "url": "https://hh.ru/vacancy/103527425",
+    "salary_currency": "RUR",
+    "salary_from": 500000,
+    "salary_to": null
+  },
+  {
+    "name": "Программист",
+    "url": "https://hh.ru/vacancy/104018898",
+    "salary_currency": "RUR",
+    "salary_from": 60000,
+    "salary_to": 300000
+  },
+  {
+    "name": "Стажер-разработчик",
+    "url": "https://hh.ru/vacancy/102735918",
+    "salary_currency": "KZT",
+    "salary_from": 100000,
+    "salary_to": 150000
+  },
+  {
+    "name": "Python-разработчик",
+    "url": "https://hh.ru/vacancy/103641114",
+    "salary_currency": "RUR",
+    "salary_from": 50000,
+    "salary_to": 150000
+  },
+  {
+    "name": "CIO/IT директор (LegalTech)",
+    "url": "https://hh.ru/vacancy/103588396",
+    "salary_currency": "RUR",
+    "salary_from": 500000,
+    "salary_to": 800000
+  },
+  {
+    "name": "Backend-разработчик (Python)",
+    "url": "https://hh.ru/vacancy/103936271",
+    "salary_currency": "RUR",
+    "salary_from": 40000,
+    "salary_to": 70000
+  },
+  {
+    "name": "Frontend-разработчик",
+    "url": "https://hh.ru/vacancy/103908864",
+    "salary_currency": "RUR",
+    "salary_from": 80000,
+    "salary_to": 200000
+  }
+]
