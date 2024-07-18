@@ -124,5 +124,103 @@
     "salary_currency": "RUR",
     "salary_from": 80000,
     "salary_to": 200000
+  },
+  {
+    "name": "Разработчик Telagram-ботов",
+    "url": "https://hh.ru/vacancy/102578393",
+    "salary_currency": "USD",
+    "salary_from": 500,
+    "salary_to": null
+  },
+  {
+    "name": "Junior Product Analyst",
+    "url": "https://hh.ru/vacancy/103140775",
+    "salary_currency": "RUR",
+    "salary_from": 120000,
+    "salary_to": null
+  },
+  {
+    "name": "QA Engineer",
+    "url": "https://hh.ru/vacancy/103986335",
+    "salary_currency": "RUR",
+    "salary_from": 150000,
+    "salary_to": null
+  },
+  {
+    "name": "Python Developer / Программист Python",
+    "url": "https://hh.ru/vacancy/104015858",
+    "salary_currency": "RUR",
+    "salary_from": 220000,
+    "salary_to": null
+  },
+  {
+    "name": "Бэкэнд разработчик (Python/Django)",
+    "url": "https://hh.ru/vacancy/103920430",
+    "salary_currency": "RUR",
+    "salary_from": 80000,
+    "salary_to": 110000
+  },
+  {
+    "name": "Frontend developer",
+    "url": "https://hh.ru/vacancy/104137923",
+    "salary_currency": "UZS",
+    "salary_from": 5000000,
+    "salary_to": 15000000
+  },
+  {
+    "name": "Backend Engineer - IT-Intern",
+    "url": "https://hh.ru/vacancy/104093342",
+    "salary_currency": "USD",
+    "salary_from": 200,
+    "salary_to": 500
+  },
+  {
+    "name": "Стажер Python developer",
+    "url": "https://hh.ru/vacancy/104143752",
+    "salary_currency": "RUR",
+    "salary_from": 35000,
+    "salary_to": 35000
+  },
+  {
+    "name": "Программист (Junior - младший разработчик)",
+    "url": "https://hh.ru/vacancy/103797621",
+    "salary_currency": "RUR",
+    "salary_from": 30000,
+    "salary_to": 60000
+  },
+  {
+    "name": "Junior Backend Developer (Python)",
+    "url": "https://hh.ru/vacancy/104137456",
+    "salary_currency": "RUR",
+    "salary_from": 70000,
+    "salary_to": null
+  },
+  {
+    "name": "Удаленный менеджер (срочно, возможна подработка)",
+    "url": "https://hh.ru/vacancy/104008693",
+    "salary_currency": "RUR",
+    "salary_from": 47990,
+    "salary_to": null
+  },
+  {
+    "name": "Программист Python",
+    "url": "https://hh.ru/vacancy/102306085",
+    "salary_currency": "RUR",
+    "salary_from": 30000,
+    "salary_to": 40000
+  },
+  {
+    "name": "Python-разработчик",
+    "url": "https://hh.ru/vacancy/104150762",
+    "salary_currency": "USD",
+    "salary_from": 2000,
+    "salary_to": 4000
+  },
+  {
+    "name": "Junior data analyst",
+    "url": "https://hh.ru/vacancy/103773913",
+    "salary_currency": "KZT",
+    "salary_from": null,
+    "salary_to": 310000
   }
 ]

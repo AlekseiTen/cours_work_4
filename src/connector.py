@@ -2,7 +2,6 @@ import json
 from abc import ABC, abstractmethod
 from dataclasses import asdict
 from pathlib import Path
-
 from src.entities import Vacancy
 
 

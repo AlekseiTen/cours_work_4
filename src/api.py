@@ -1,13 +1,9 @@
 from abc import ABC, abstractmethod
-
 import requests
-
-
 from src.entities import Vacancy
 
 
 class Parser(ABC):
-
     @abstractmethod
     def get_vacancies(self, search_text: str) -> list[dict]:
         pass
@@ -40,15 +36,12 @@ class HHVacanciesAPI(Parser):
     def _get_list(self, url: str, params: dict, max_pages: int = 1) -> list[dict]:
         """
         Метод получения вакансий в виде списка по слову кот. задаст пользователь
-        :param url:
-        :param params:
-        :param max_pages:
-        :return:
         """
         items = []
         for current_page in range(0, max_pages):
             params['page'] = current_page
             response = requests.get(url, params=params, timeout=10)
+            response.raise_for_status()
             data = response.json()
             items.extend(data['items'])
 
