@@ -222,5 +222,19 @@
     "salary_currency": "KZT",
     "salary_from": null,
     "salary_to": 310000
+  },
+  {
+    "name": "Младший backend-разработчик",
+    "url": "https://hh.ru/vacancy/103215751",
+    "salary_currency": "RUR",
+    "salary_from": 45000,
+    "salary_to": 120000
+  },
+  {
+    "name": "Middle+ Python Engineer",
+    "url": "https://hh.ru/vacancy/104153614",
+    "salary_currency": "USD",
+    "salary_from": 1500,
+    "salary_to": 2500
   }
 ]

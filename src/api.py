@@ -34,9 +34,8 @@ class HHVacanciesAPI(Parser):
         ]
 
     def _get_list(self, url: str, params: dict, max_pages: int = 1) -> list[dict]:
-        """
-        Метод получения вакансий в виде списка по слову кот. задаст пользователь
-        """
+        """Метод получения вакансий в виде списка по слову кот. задаст пользователь"""
+
         items = []
         for current_page in range(0, max_pages):
             params['page'] = current_page
@@ -46,4 +45,3 @@ class HHVacanciesAPI(Parser):
             items.extend(data['items'])
 
         return items
-

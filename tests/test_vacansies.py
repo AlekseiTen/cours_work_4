@@ -21,6 +21,7 @@ def test_vacancy_compare_by_salary_from():
     assert v2 == v3
     assert v3 > v1
 
+
 def test_vacancy_compare_by_salary_to():
     """Тест на <, =, > зарплат до(to)"""
     v1 = Vacancy('name', 'url', salary_to=10)

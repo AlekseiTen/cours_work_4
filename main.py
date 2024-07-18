@@ -21,5 +21,6 @@ def main():
         connector.add_vacancy(vac)
     start_user_interaction(connector)
 
+
 if __name__ == "__main__":
     main()

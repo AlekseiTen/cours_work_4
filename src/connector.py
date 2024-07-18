@@ -35,10 +35,10 @@ class Connector(ABC):
 
 class JsonConnector(Connector):
 
-    def __init__(self, file_path: Path, encoding: str = 'utf-8') -> None:
+    def __init__(self, file_path: Path, encoding: str = 'utf-8'):
         """Инициализируем путь до файла и кодировку"""
 
-        self.file_path = file_path
+        self.__file_path = file_path
         self.encoding = encoding
 
     def get_vacancies(self) -> list[Vacancy]:
@@ -46,16 +46,15 @@ class JsonConnector(Connector):
         читаем и парсим в вакансию, добавляем вакансию в список и возв. список
         """
 
-        if not self.file_path.exists():
+        if not self.__file_path.exists():
             return []
 
         vacancies = []
-        with self.file_path.open(encoding=self.encoding) as f:
-            for item in json.load(f):
+        with self.__file_path.open(encoding=self.encoding) as file:
+            for item in json.load(file):
                 vacancy = self._parse_dict_to_vacancy(item)
                 vacancies.append(vacancy)
         return vacancies
-
 
     def add_vacancy(self, vacancy: Vacancy) -> None:
         """Метод добавления новой вакансии, сначала с помощью метода get_vacancies() считываем вакансию,
@@ -66,7 +65,6 @@ class JsonConnector(Connector):
             vacancies.append(vacancy)
             self._save(*vacancies)
 
-
     def remove_vacancy(self, vacancy: Vacancy) -> None:
         """Метод удаления  вакансии, сначала с помощью метода get_vacancies() считываем вакансию,
          если она существует только затем удаляем ее"""
@@ -76,9 +74,8 @@ class JsonConnector(Connector):
             vacancies.remove(vacancy)
             self._save(*vacancies)
 
-
     def _save(self, *vacancies: Vacancy) -> None:
         """Метод записи вакансии в файл json"""
         raw_data = [self._parse_vacancy_to_dict(vac) for vac in vacancies]
-        with self.file_path.open(mode='w', encoding=self.encoding) as file:
+        with self.__file_path.open(mode='w', encoding=self.encoding) as file:
             json.dump(raw_data, file, indent=2, ensure_ascii=False)
